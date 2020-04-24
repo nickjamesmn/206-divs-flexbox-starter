@@ -109,9 +109,30 @@ body {
   height: 100%;
 }
 
+header,
+footer {
+  height: 80px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: flex-start;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+main {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+}
+
 .wrapper {
   font-weight: 700;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
@@ -120,17 +141,16 @@ body {
   line-height: 1.5em;
   font-size: .75em;
   height: auto;
-  display: flex;
   width: 30%;
-  justify-content: center;
-  align-items: flex-start;
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .div-1, .div-2 {
   border-right: 1px solid #555;
   padding-right: 30px;
-  border-color: #ffffff;
 }
 
 
